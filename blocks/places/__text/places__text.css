@@ -1,0 +1,9 @@
+.places__text {
+  width: 57.71%;
+  margin: 0 84px 37px;
+  font-weight: 500;
+}
+
+.places__text:last-child {
+  margin-bottom: 104px;
+}
