@@ -1,0 +1,12 @@
+@import url(./__text/opinions__text.css);
+@import url(./__title/opinions__title.css);
+@import url(./__subtitle/opinions__subtitle.css);
+
+
+.opinions {
+  margin: 0 auto;
+  padding-top: 160px;
+  padding-bottom: 170px;
+  max-width: 1320px;
+  box-sizing: border-box;
+}

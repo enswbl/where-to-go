@@ -1,0 +1,17 @@
+.opinions__subtitle {
+  margin: 0;
+  color: #fbcca8;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*@media (max-width: 930px) {
+
+  .opinions__subtitle{
+  color: #000;
+
+  }
+
+}
+*/
