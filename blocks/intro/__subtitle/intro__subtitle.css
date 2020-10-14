@@ -6,12 +6,39 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1140px) {
+
+  .intro__subtitle {
+    margin: 0 0 46px 44px;
+  }
+
+}
+
+
 @media (max-width: 930px) {
 
-  .intro__subtitle{
-  color: #000;
+  .intro__subtitle {
+    margin: 0 0 26px 84px;
+    color: #000;
 
   }
 
 }
 
+@media (max-width: 740px) {
+
+  .intro__subtitle {
+    margin: 0 0 26px 54px;
+  }
+
+}
+
+
+@media (max-width: 585px) {
+
+  .intro__subtitle {
+    margin: 0 0 16px 34px;
+    font-size: 13px;
+  }
+
+}
