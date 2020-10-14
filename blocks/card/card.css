@@ -1,0 +1,7 @@
+@import url(./__quote/card__quote.css);
+@import url(./__title/card__title.css);
+
+
+.card {
+  max-width: 260px;
+}
