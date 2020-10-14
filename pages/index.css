@@ -30,7 +30,8 @@
 @import url(../blocks/places/__image/_forest/places__image_forest.css);
 @import url(../blocks/places/__image/_mountains/places__image_mountains.css);
 @import url(../blocks/places/__image/_black-sea/places__image_black-sea.css);
-
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/places/__texts/places__texts.css);
 
 @import url(../blocks/opinions/opinions.css);
 @import url(../blocks/cards/cards.css);

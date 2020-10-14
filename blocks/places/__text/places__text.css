@@ -5,13 +5,57 @@
 }
 
 .places__text:last-child {
-  margin-bottom: 104px;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1370px) {
 
-  .places__text:last-child {
-    margin-bottom: 25px;
+  .places__text {
+    width: 70%;
   }
 
 }
+
+@media (max-width: 1232px) {
+
+  .places__text {
+    margin: 0 64px 37px;
+  }
+
+}
+
+@media (max-width: 968px) {
+
+  .places__text {
+    margin: 0 44px 37px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .places__text {
+    width: 80%;
+    margin: 0 44px 27px;
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  .places__text {
+    width: 85%;
+    margin: 0 24px 27px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .places__text {
+    margin: 0 24px 17px;
+  }
+
+}
+
+

@@ -21,5 +21,20 @@
 
 }
 
+@media (max-width: 768px) {
+
+  .intro {
+    margin: 0 auto 65px;
+  }
+
+}
+
+@media (max-width: 532px) {
+
+  .intro {
+    margin: 0 auto 55px;
+  }
+
+}
 
 

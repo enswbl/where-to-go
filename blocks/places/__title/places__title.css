@@ -1,14 +1,30 @@
 .places__title {
-  margin: 74px 84px 234px;
   font-size: 40px;
   font-weight: bold;
+  margin: 74px 84px 0px;
 }
 
 
-@media (max-width: 1235px) {
+@media (max-width: 1232px) {
 
   .places__title {
-    margin-bottom: 134px;
+    margin: 54px 64px 0px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .places__title {
+    margin: 44px 44px 37px;
+  }
+
+}
+
+@media (max-width: 568px) {
+
+  .places__title {
+    margin: 34px 24px 37px;
   }
 
 }
