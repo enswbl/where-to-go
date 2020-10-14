@@ -7,3 +7,11 @@
 .places__text:last-child {
   margin-bottom: 104px;
 }
+
+@media (max-width: 1370px) {
+
+  .places__text:last-child {
+    margin-bottom: 25px;
+  }
+
+}

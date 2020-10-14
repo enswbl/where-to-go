@@ -3,3 +3,25 @@
   grid-template-columns: repeat(2, 50%);
   margin: 0 auto 154px;
 }
+
+@media (max-width: 1024px) {
+
+  .intro {
+    margin: 0 auto 100px;
+  }
+
+}
+
+@media (max-width: 930px) {
+
+  .intro {
+    margin: 0 auto 80px;
+
+    display: flex;
+
+  }
+
+}
+
+
+

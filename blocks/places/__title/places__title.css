@@ -1,5 +1,14 @@
 .places__title {
-  margin: 80px 84px 234px;
+  margin: 74px 84px 234px;
   font-size: 40px;
   font-weight: bold;
+}
+
+
+@media (max-width: 1235px) {
+
+  .places__title {
+    margin-bottom: 134px;
+  }
+
 }

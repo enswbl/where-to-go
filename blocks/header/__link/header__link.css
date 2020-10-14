@@ -1,3 +1,28 @@
 .header__link {
-  margin-right: 43px;
+  margin-right: 42px;
 }
+
+@media (max-width: 768px) {
+
+  .header__link  {
+    margin-right: 16px;
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  .header {
+    margin-right: 10px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .header {
+    margin-right: 8px;
+  }
+
+}
+

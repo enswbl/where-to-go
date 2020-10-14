@@ -1,6 +1,17 @@
 .intro__subtitle {
+  margin: 0 0 46px 84px;
+  color: #fbcca8;
   font-size: 15px;
   font-weight: bold;
-  color: #fbcca8;
-  margin-left: 84px;
+  text-transform: uppercase;
 }
+
+@media (max-width: 930px) {
+
+  .intro__subtitle{
+  color: #000;
+
+  }
+
+}
+

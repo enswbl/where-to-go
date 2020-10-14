@@ -4,3 +4,11 @@
   display: grid;
   grid-template-columns: repeat(2, 50%);
 }
+
+@media (max-width: 768px) {
+
+  .places {
+    grid-template-columns: 1fr;
+  }
+
+}

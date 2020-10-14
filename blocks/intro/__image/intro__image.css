@@ -4,3 +4,23 @@
   height: 417px;
   object-fit: cover;
 }
+
+@media (max-width: 1250px) {
+
+  .intro__image {
+    margin: 0 auto 0;
+  }
+
+}
+
+
+@media (max-width: 930px) {
+
+  .intro__image {
+    width: 100%;
+
+    background-image: url(../../../images/intro-image.jpeg);
+    background-repeat: no-repeat;
+  }
+
+}
