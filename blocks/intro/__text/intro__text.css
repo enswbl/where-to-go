@@ -6,8 +6,44 @@
 @media (max-width: 930px) {
 
   .intro__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
+    margin-top: 146px;
+  }
 
+}
+
+ @media (max-width: 647px) {
+
+  .intro__text {
+    margin-top: 126px;
+  }
+
+}
+
+@media (max-width: 585px) {
+
+  .intro__text  {
+    margin-top: 135px;
+  }
+
+}
+
+@media (max-width: 404px) {
+
+  .intro__text {
+    margin-top: 110px;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  .intro__text {
+    max-width: 320px;
+    width: 320px;
   }
 
 }
