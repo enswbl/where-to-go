@@ -4,9 +4,15 @@
   margin: 46px 0 0;
 }
 
+@media screen and (max-width: 968px) {
+  .opinions__title{
+    margin: 26px 0 0;
+  }
+}
 
 @media screen and (max-width: 420px) {
   .opinions__title {
     font-size: 30px;
   }
 }
+

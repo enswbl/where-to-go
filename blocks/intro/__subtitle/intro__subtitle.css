@@ -5,6 +5,7 @@
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 @media (max-width: 1140px) {
@@ -20,8 +21,7 @@
 
   .intro__subtitle {
     margin: 0 0 26px 84px;
-    color: #000;
-
+    /* color: #000; */
   }
 
 }

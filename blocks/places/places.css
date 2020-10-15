@@ -1,3 +1,15 @@
+@import url(../places/__place/places__place.css);
+@import url(../places/__title/places__title.css);
+@import url(../places/__texts/places__texts.css);
+@import url(../places/__text/places__text.css);
+@import url(../places/__forest/places__forest.css);
+@import url(../places/__mountains/places__mountains.css);
+@import url(../places/__black-sea/places__black-sea.css);
+@import url(../places/__image/_forest/places__image_forest.css);
+@import url(../places/__image/_mountains/places__image_mountains.css);
+@import url(../places/__image/_black-sea/places__image_black-sea.css);
+@import url(../places/__image/places__image.css);
+
 .places {
   margin: 0 auto;
   background-color: #F2F2F2;

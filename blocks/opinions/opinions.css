@@ -4,27 +4,29 @@
 
 
 .opinions {
-  margin: 160px auto 174px;
-  width: calc(100% - 80px * 2);
+  margin: 160px 80px 174px;
 }
 
-
-/* @media screen and (max-width: 968px) {
+@media screen and (max-width: 968px) {
   .opinions {
-    padding-top: 100px;
+    margin: 85px 60px 85px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .opinions {
-    padding-top: 70px;
+    margin: 70px 44px 70px;
   }
-} */
+}
 
+@media screen and (max-width: 568px) {
+  .opinions {
+    margin: 70px 24px 70px;
+  }
+}
 
 @media screen and (max-width: 420px) {
   .opinions {
-    width: calc(100% - 40px * 2);
-    /* padding-top: 80px; */
+    margin: 80px 20px 80px;
   }
 }

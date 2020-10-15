@@ -1,7 +1,14 @@
+@import url(../intro/__text/intro__text.css);
+@import url(../intro/__title/intro__title.css);
+@import url(../intro/__subtitle/intro__subtitle.css);
+@import url(../intro/__image/intro__image.css);
+@import url(../intro/__overlay/intro__overlay.css);
+
 .intro {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   margin: 0 auto 154px;
+  position: relative;
 }
 
 @media (max-width: 1024px) {
@@ -36,5 +43,3 @@
   }
 
 }
-
-
