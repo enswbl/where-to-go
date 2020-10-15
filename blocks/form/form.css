@@ -1,0 +1,23 @@
+@import url(./__title/form__title.css);
+@import url(./__image/form__image.css);
+@import url(./__main-container/form__main-container.css);
+@import url(./__container/form__container.css);
+@import url(./__item/form__item.css);
+@import url(./__input-container/form__input-container.css);
+@import url(./__handlers/form__handlers.css);
+@import url(./__button/form__button.css);
+
+
+.form {
+  padding-top: 170px;
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 1279px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,9 @@
+.form__item_el_where {
+  background: #fff;
+  padding: 12px;
+  height: 36px;
+}
+
+.form__item_el_where:focus {
+  outline-color: turquoise;
+}

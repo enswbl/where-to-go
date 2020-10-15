@@ -1,0 +1,11 @@
+.form__main-container {
+  background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .form__main-container {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+}
