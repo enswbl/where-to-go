@@ -1,0 +1,24 @@
+@import url(./__title/video__title.css);
+
+.video {
+  width: 100%;
+  padding-bottom: 48.9%;
+  height: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.video iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+

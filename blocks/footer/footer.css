@@ -1,0 +1,11 @@
+@import url(./__span/footer__span.css);
+@import url(./__background/footer__background.css);
+
+.footer {
+  width: 100%;
+  padding-bottom: 48.9%;
+  box-sizing: border-box;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
