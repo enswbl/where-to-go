@@ -3,3 +3,12 @@
   font-weight: bold;
   margin: 165px 0 0 80px;
 }
+
+
+@media screen and (max-width: 576px) {
+  .form__title{
+    width: calc(100% - 24px * 2);
+    margin: 60px auto 0;
+    font-size: 26px;
+  }
+}

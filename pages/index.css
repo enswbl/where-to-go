@@ -37,3 +37,6 @@
 @import url(../blocks/card/card.css);
 
 @import url(../blocks/form/form.css);
+
+@import url(../blocks/form/__item/_el/form__item_el_where.css);
+@import url(../blocks/form/__item/_el/form__item_el_why.css);

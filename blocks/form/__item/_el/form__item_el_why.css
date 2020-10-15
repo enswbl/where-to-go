@@ -1,0 +1,12 @@
+.form__item_el_why {
+  background: #fff;
+  height: 120px;
+  margin-top: 22px;
+  padding: 12px;
+  resize: none;
+}
+
+
+.form__item_el_why:focus {
+  outline-color: turquoise;
+}

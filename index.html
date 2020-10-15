@@ -111,13 +111,14 @@
         <h2 class="form__title">Так куда же я поеду?</h2>
 
         <div class="form__container">
-          <form class="form__admin">
+          <form>
             <fieldset class="form__input-container">
-              <input class="form__item" type="text" placeholder="Я поеду ...">
-              <textarea class="form__item" placeholder="Потому что я ..."></textarea>
+              <input class="form__item form__item_el_where" type="text" name="where_to_go" placeholder="Я поеду ..."
+                required>
+              <textarea class="form__item form__item_el_why" name="why_go" placeholder="Потому что я ..."></textarea>
             </fieldset>
             <fieldset class="form__handlers">
-              <input class="form__button>" type="submit">
+              <button class="form__button" type="submit">Поехали уже куда-нибудь!</button>
             </fieldset>
           </form>
         </div>
