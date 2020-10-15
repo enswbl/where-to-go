@@ -4,16 +4,27 @@
 
 
 .opinions {
-  margin: 0 auto;
-  padding-top: 160px;
+  margin: 160px auto 174px;
   width: calc(100% - 80px * 2);
-  box-sizing: border-box;
 }
+
+
+/* @media screen and (max-width: 968px) {
+  .opinions {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .opinions {
+    padding-top: 70px;
+  }
+} */
 
 
 @media screen and (max-width: 420px) {
   .opinions {
     width: calc(100% - 40px * 2);
-    padding-top: 80px;
+    /* padding-top: 80px; */
   }
 }

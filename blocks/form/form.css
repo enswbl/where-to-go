@@ -9,16 +9,21 @@
 
 
 .form {
-  padding-top: 170px;
-  box-sizing: border-box;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 968px) {
   .form {
     grid-template-columns: 1fr;
+    /* padding-top: 100px; */
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .form {
+    padding-top: 70px;
   }
 }
 
@@ -26,4 +31,4 @@
   .form {
     padding-top: 80px;
   }
-}
+} */
