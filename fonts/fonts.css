@@ -25,5 +25,18 @@
   font-weight: 900;
   src: url("../fonts/Raleway-Black.woff") format("woff");
 
+}
+
+@font-face {
+  font-family: 'Cousine';
+  font-weight: 400;
+  src: url("../fonts/Cousine-Regular.woff") format("woff");
+
+}
+
+@font-face {
+  font-family: 'Cousine';
+  font-weight: 700;
+  src: url("../fonts/Cousine-Bold.woff") format("woff");
 
 }

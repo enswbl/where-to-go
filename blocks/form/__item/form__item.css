@@ -4,7 +4,8 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: inherit;
+  /* font-family: inherit; */
+  font-family: 'Arial';
   background-color: white;
 }
 
