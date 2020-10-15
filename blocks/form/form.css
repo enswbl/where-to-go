@@ -21,3 +21,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .form {
+    padding-top: 80px;
+  }
+}

@@ -2,7 +2,22 @@
 .cards {
   width: 100%;
   margin: 154px auto 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cards {
+    grid-template-columns: 1fr;
+    margin: 60px auto 0;
+    gap: 40px;
+  }
 }

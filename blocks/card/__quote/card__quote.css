@@ -1,5 +1,13 @@
 .card__quote {
+  max-width: 100%;
   margin: 37px 0 0 0;
   font-size: 15px;
   font-weight: normal;
+}
+
+
+@media screen and (max-width: 420px) {
+  .card__quote{
+    margin: 15px 0 0 0;
+  }
 }

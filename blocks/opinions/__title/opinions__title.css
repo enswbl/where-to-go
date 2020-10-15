@@ -3,3 +3,10 @@
   font-weight: bold;
   margin: 46px 0 0;
 }
+
+
+@media screen and (max-width: 420px) {
+  .opinions__title {
+    font-size: 26px;
+  }
+}
