@@ -1,26 +1,27 @@
 .video__title {
-  margin: 157px 0 0 80px;
-  color: black;
+  display: flex;
+  justify-content: center;
+  margin: 80px auto 80px;
   font-size: 40px;
   font-weight: bold;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
   .video__title {
-    margin: 80px 0 0 20px;
+    margin: 60px auto 60px;
   }
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .video__title {
-    font-size: 20px;
-    margin: 60px 0 0 20px;
+    margin: 40px 15px 40px;
+    font-size: 30px;
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 428px) {
   .video__title {
-    margin: 140px 0 0 20px;
+    margin: 40px 10px 40px;
+    font-size: 24px;
   }
 }

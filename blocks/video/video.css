@@ -1,24 +1,11 @@
 @import url(./__title/video__title.css);
+@import url(./__videos/video__videos.css);
+@import url(./__iframe/video__iframe.css);
+@import url(./__responsive/video__responsive.css);
+
 
 .video {
-  width: 100%;
-  padding-bottom: 48.9%;
-  height: 0;
-  box-sizing: border-box;
-  position: relative;
-  overflow: hidden;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: 100px;
-}
-
-.video iframe {
-  border: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  flex-direction: column;
+  justify-content: center;
 }
